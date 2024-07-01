@@ -1,4 +1,4 @@
-package com.cmcg.hn_training_theweather_kotlin
+package com.cmcg.hn_training_theweather_kotlin.pages.home
 
 import android.os.Bundle
 import android.os.Handler
@@ -6,12 +6,13 @@ import android.os.Looper
 import android.view.KeyEvent
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.cmcg.hn_training_theweather_kotlin.R
 
 
 class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home)
+        setContentView(R.layout.activity_splash)
         supportActionBar?.show()
     }
 

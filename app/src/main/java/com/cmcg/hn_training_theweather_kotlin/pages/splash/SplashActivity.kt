@@ -1,12 +1,13 @@
-package com.cmcg.hn_training_theweather_kotlin
+package com.cmcg.hn_training_theweather_kotlin.pages.splash
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.cmcg.hn_training_theweather_kotlin.pages.home.HomeActivity
 import com.cmcg.hn_training_theweather_kotlin.databinding.ActivityMainBinding
 
 
-class MainActivity : AppCompatActivity() {
+class SplashActivity : AppCompatActivity() {
 
 
     private lateinit var binding: ActivityMainBinding
